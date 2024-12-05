@@ -1,0 +1,45 @@
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+   
+}
+
+.navBar{
+    background-color:white;
+    color: black;
+    position:sticky;
+    top: 0;
+}
+
+
+.navBar a{
+    text-decoration: none;
+    
+}
+
+.navBar a:visited{
+    color: black;
+}
+
+.navBar a:hover{
+    color: orange;
+}
+
+
+.navBar ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+img{
+    display: block;
+    max-width: 100%;
+    left:0;
+    right:0;
+}
+

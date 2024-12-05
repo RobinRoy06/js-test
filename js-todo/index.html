@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>Todo App</h1>
+    
+    <form id="createForm">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" required><br>
+
+        <label for="task">Task:</label><br>
+        <input type="text" id="task" required><br>
+
+        
+        <input type="submit" value="Submit">
+        <input type="button" onclick="myFunction()" value="Add task" id="addTask">
+    </form>
+        
+    <!-- Button to add more tasks -->
+   
+    
+    <!-- Container for tasks -->
+    <ul id="taskList"></ul>
+    
+    <div id="hoes"></div>
+    <script src="main.js"></script>
+</body>
+</html>

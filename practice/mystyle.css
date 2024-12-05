@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif; /*Fonts*/
+    font-size: large;   
+}
+
+
+h1{
+    text-align: center;
+    
+}
+
+body {
+    text-align: center; /* This centers text in the body */
+}
+
+
+
+img {
+    display: block; /* Makes image behave like a block element */
+    margin: 0 auto; /* Centers the images */
+}
+
+/* Optional: Add padding and adjust font if needed for aesthetics */
+.header, .content, .instructions, .footer {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+ol, ul {
+    list-style-type: none; /* Hides bullets or numbers */
+    padding: 0; /* Removes any default padding */
+}
